@@ -1,0 +1,211 @@
+
+
+/* here we start by linking to a Google font - watch the video on Google fonts on Moodle */
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+/*here's one of the best ways to use a background image */
+html { 
+    @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* a quick but heavy handed way of centering everything in the body */
+body {text-align: center;
+}
+
+
+/* here's the typography bit - remember if you haven't linked to an online font library like google fonts, then the font style part won't work. Watch the Font tutorial on moodle. Change this font using the turotial*/
+
+h1 {font-family:'Special Elite', cursive;
+    color: black; 
+    font-size: 90px; }
+
+
+h2 {font-family: 'Special Elite', cursive;
+    font-size: 60px;
+    color: black;}
+
+h3 {font-family: 'Special Elite', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+
+h4 { font-family: 'Special Elite', cursive;
+     font-size: 40px;
+     color: black;
+    text-align: center;
+    
+}
+
+h5 { font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    
+    
+}
+h6{font-family: 'Special Elite', cursive;
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+}
+
+h7{font-family: 'Special Elite', cursive;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
+
+ol {
+    font-family: 'Special Elite', cursive;
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+    font-size: 150%;
+    color: black;
+    }
+
+p1 {
+   font-family: 'Special Elite', cursive;
+    font-size: 100%;
+    color: black;
+    }
+
+
+figcaption {
+    font-family: 'Special Elite', cursive; }
+
+
+span.redacted {
+   background: black
+    }
+    
+}
+
+
+.blurred span{
+    filter: blur(6px)
+}
+
+.col-2-3 a {
+    color: gray;
+    font-size: 100%;
+    text-decoration: underline
+}
+
+.col-2-3 a.visited {
+    font color: black;
+}
+
+
+
+.col-2-2 {
+  float: center;
+  clear: both;
+  color: #ffffff;
+  background-color: #000000;
+  height: 60px;
+  width:1200px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  padding: 10px; 
+}
+{
+ /* Add a black background color to the top navigation */
+    background-color: #333
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.col-2-2 a:link {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 150%;
+  font-family: 'Special Elite', cursive;
+}
+/* Change the color of links on hover */
+.col-2-2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+  .col-2-2 a.current {
+  background-color: darkgrey;
+  color: white;       
+         }
+
+
+/* Global Style for the links */
+
+
+
+a:visited {
+            color: gray;
+           }
+
+
+
+
+/* I've added these so you can adjust the padding in the columns I'm using on the homepage - the "!important" means it overides the Simplegrid settings  */
+
+.col-1-1 {padding: 1px !important;}
+
+.col-1-4 {padding: 1px !important;}
+
+
+
+/* the style below is compound css, ie it only relates to a link "a" when inside the col-1-1  ie in the top menu bar*/
+.col-1-1 a {padding: 13px;}
+
+
+.col-4-12 img{opacity: 0.8; cursor: pointer}
+.col-4-12 img:hover{opacity: 1}
+
+
+
+
+
+
+
+
+
+
+
+.redacted span {
+    color: black;
+    background-color: black;
+    white-space: nowrap;
+    transform: skewY(-5deg) rotate(5deg) ;
+  box-shadow:2px 0 2px #444;
+    width: 100%;
+    height: 2px;
+    padding: 0px 0px;
+}
+
+
+
+
+.blurred span {
+  filter: blur(6px);
+  /* As pointed out by Alexander Erlandsson (@alexerlandsson), for situations that require better cross-browser support, the blur effect is easily reproduced with transpartent text + text-shadow
+  color: transparent;
+  text-shadow: 0 0 12px rgba(0,0,0,0.8); */
+}
+
+              
+
+

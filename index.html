@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- so the Tag above says it's a HTML5 Page, that's all. -->
+
+
+<!-- now lets open with a HTML tag, this will close again at the very end -->
+<html>
+
+
+
+    
+    <head>
+        <!-- the things you put in the HEAD tell the website page how to set up -->
+        
+        <!-- the <title> below shows up in the top browser bar, and is good for google optimisation too -->
+        
+        <title>G.O.D.</title>
+        
+
+       
+        <!-- the Viewport sets the size of the page for different devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    
+       
+        <!-- below links to your external stylesheet, this CSS file must be in the same folder as the webpage it tells the site what it should look like  -->
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        
+
+        
+         <!-- below links to your grid system stylesheet - we're using one called 'simplegrid', this saves us having to write our own set of CSS rules for Divs (ie columns) we don't ever need to edit simgrid.css -->
+        <link rel="stylesheet" type="text/css" href="simplegrid.css">
+       
+       
+        
+    <!-- don't forget to close the head tag here-->
+    </head>
+
+
+    
+   
+   
+    <body>
+        
+         <!-- everything you want to appear in the page should be between the body tags You'll notice I try to always to put content in between a set DIV tags. A DIV is a box. Open the box, put someething in, close the box.-->
+        
+      
+        
+        <!-- now, let's begin with the fist row on the page-->
+           
+            <div class="col-2-2">
+                
+                <!-- everything you want to appear in the first div (a 100% width Div ie "1/1" (I'm using it as a navigation bar) will go here -->
+                
+
+                <!-- Here's The simplest Nav possible. Notice the syntax below -NO SPACES or symbols between the quotation marks - THIS IS ESSENTIAL - also notice there's no "home.html" . BTW the "<a href>" tag means "LINK TO" -->
+                
+                
+              
+          
+                <a href="index.html"class="current">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="biology.html">Biology Facts</a>
+                <a href="habitat.html">Habitat</a>
+                <a href="Contact.html">Contact</a>
+          
+            
+            
+            <!-- now close the 100% width div-->
+            </div>
+         
+        
+        
+     
+     
+
+        
+   
+        <!-- row number 2 starts here -->
+        
+        <!-- open the 100% width column -->
+            <div class="col-1-1">   
+    
+                <img src="images/logo.png" width="20%"/>
+
+              <h1> Project G.O.D. </h1>         
+              <h2> Gather. Observe. Discover</h2>
+             
+            </div>  
+           
+            
+               
+        
+
+        
+        
+        <!-- I'm going to create a layout where the image takes up 2/3 of the page width and the text is 1/3 of the width-->
+        
+            <div class="col-1-4">
+            <img src="images/monster3.png" width="100%"/>
+        </div>
+    
+    
+        <div class="col-1-3">       
+            
+            <h6>                 <ul> Name:  <br> </ul>
+                               <ul>  Species: <br> </ul>
+                                <ul>Number: <br></ul>
+                               <ul> Human A.K.A: <br></ul>
+                                <ul> Assignment: </ul>
+            </h6>
+        </div>
+        
+        
+        <div class="col-1-3">       
+            
+            <h7>                 <ul>XICUTHU <br> </ul>
+                               <ul>  Classified <br> </ul>
+                                <ul> Delta 5347 <br></ul>
+                               <ul>  'Boogie Man' <br></ul>
+                                <ul> Gather information, Observe subject 4354. Reconaissance only, no interference</ul>
+            </h7>
+        </div>
+        
+        
+        
+        
+       
+ 
+      
+                    
+            
+         <!-- Row  starts Here -->
+
+
+         <div class="col-2-3"> <!-- here's an opening 2/3 column-->
+                   
+             
+             <h4> 
+        
+             BIO
+                   
+             </h4>
+
+                         
+       <p>
+        While I have been called by many names, ranging from the monster under the bed, to the boogie man, to utter egghead, I like to pride myself on my professional dexterity. I can be all of the above. At the moment however, I am simply the shadows in the corner of Subject 5354's eye. My assignment is to observe and record, discover and remember. I am forbidden from interfering, as only naturally occuring circumstances can qualify for the report. For further information, please peruse this site at your leisure. Should any human happen across it, may I point in the direction of the <a href="https://www.urbandictionary.com/define.php?term=April%20Fools">Urban Dictionary's definition of April Fools.</a> 
+        </p>
+                </div>  <!-- That's a closing  2/3 column-->
+    
+          
+            <!-- here's an empty 1/6 column to complete the third row-->
+            <div class="col-1-6">
+                <img src="images/classified.png" width="200%"> 
+            </div> 
+            
+         
+        
+    <!-- close the body-->  
+    </body>
+
+                
+<!-- close the html page-->
+</html>
